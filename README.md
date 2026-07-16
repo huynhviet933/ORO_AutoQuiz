@@ -12,26 +12,14 @@
 
 Bạn cần tạo các file sau trong cùng thư mục với file tool (index.js):
 
-### A. Config.json (Cấu hình luồng và delay)
-{
-  "threads": 5,             // Số luồng chạy cùng lúc
-  "numAccounts": 500,       // Tổng số ví mục tiêu cần hoàn thành
-  "minDelayOp": 3000,       // Delay tối thiểu giữa các bước (ms)
-  "maxDelayOp": 10000,      // Delay tối đa giữa các bước (ms)
-  "minDelayAcc": 30000,     // Delay tối thiểu khi chuyển ví (ms)
-  "maxDelayAcc": 60000,     // Delay tối đa khi chuyển ví (ms)
-  "prefix": "zig",          // Tiền tố địa chỉ ví
-  "addressType": "cosmos"   // Loại địa chỉ
-}
-
-### B. proxy.txt (Danh sách Proxy)
+### proxy.txt (Danh sách Proxy)
 - Định dạng: http://user:pass@ip:port hoặc http://ip:port
 - Tool hỗ trợ Hot-reload: Bạn có thể thêm proxy mới khi tool đang chạy.
 
-### C. User_agents.txt (Danh sách trình duyệt giả lập)
+### User_agents.txt (Danh sách trình duyệt giả lập)
 - Mỗi dòng một User-Agent (Lấy từ trình duyệt của bạn).
 
-### D. quiz.txt (Dữ liệu giải Quiz)
+### quiz.txt (Dữ liệu giải Quiz)
 - Định dạng: Câu hỏi|Đáp án (Phải khớp 100% nội dung trên web)
 - Ví dụ:
 Before we begin, how would you describe your Web3 experience?|Deep in the trenches. I build or trade actively
