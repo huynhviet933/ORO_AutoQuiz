@@ -1,0 +1,10 @@
+{
+  "threads": 30,
+  "numAccounts": 50000,
+  "minDelayOp": 3000,
+  "maxDelayOp": 10000,
+  "minDelayAcc": 30000,
+  "maxDelayAcc": 60000,
+  "prefix": "zig",
+  "addressType": "cosmos"
+}

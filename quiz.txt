@@ -1,0 +1,18 @@
+Before we begin, how would you describe your Web3 experience?|Deep in the trenches. I build or trade actively
+When you hear 'Avalanche,' what comes to mind first?|A platform for launching many custom blockchains
+What best captures Avalanche's core design idea?|A network of many blockchains that run in parallel and can communicate
+A blockchain must get thousands of strangers to agree on one history. How do you picture that happening?|Each participant quietly checks with a small random sample of others
+How does Avalanche consensus let the network agree so quickly?|Each validator repeatedly polls a small random sample and converges
+Most platforms put everything on one chain. Designing Avalanche's base layer, would you…|Split the core jobs across a few specialized chains
+On which chain do most Avalanche dApps and DeFi run?|The C-Chain
+A game or a bank wants its own blockchain with its own rules, fees, and privacy. Should they have to share a public chain with everyone else?|No, they should be able to run their own chain
+What did the Etna (Avalanche9000) upgrade change for L1s?|It let L1 validators pay a small ongoing fee instead of staking 2,000 AVAX each
+If Avalanche is many separate chains, what's the biggest risk you'd worry about?|The chains can't talk to each other and feel isolated
+What does Interchain Messaging (ICM) provide on Avalanche?|A way for chains to communicate natively, secured by validators
+Every network needs a native asset. What do you think AVAX is mainly for?|Securing the network, paying fees, and powering L1s
+Which statement best describes Avalanche?|A platform of many interoperable blockchains with fast consensus, sovereign L1s, native messaging, and AVAX at its core
+
+
+
+
+
